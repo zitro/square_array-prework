@@ -2,7 +2,7 @@ def square_array(array)
   # your code here
   newArray = []
   array.each do |num|
-  num * num
+  newArray.push(num * num)
   end
   newArray
 end
